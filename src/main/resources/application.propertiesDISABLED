@@ -1,7 +1,6 @@
 #spring.profiles.active=h2initdata
 #spring.profiles.active=h2initbycodedata
 #spring.profiles.active=TestRepo
-logging.level.org.springframework=INFO
 
 ################### DataSource Configuration ##########################
 spring.sql.init.platform=h2

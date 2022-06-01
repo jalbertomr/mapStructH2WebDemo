@@ -1,8 +1,13 @@
 ## MapStruct Person Dto Mapper H2 Repo @Test Junit5
 
-#spring.profiles.active=h2initdata
-#spring.profiles.active=h2initbycodedata
+In application.yml
+select de profile to
 
-Uncomment the profile to select, then run SpringmapstructH2Application
+spring:
+  profiles:
+    #active: h2initdata
+    #active: h2initbycodedata
+    active: TestRepo
 
-TODO Order the appliction.properties to clean and avoid conflict with test
+Uncomment the profile to select, then run SpringmapstructH2Application or xRepositoryTest
+
